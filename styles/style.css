@@ -1,0 +1,217 @@
+/* Imported font */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* CSS Var */
+
+:root{
+    --primary-color: rgb(0, 13, 131);
+    --secondary-color: rgb(11, 180, 255);
+    --para-color: rgba(4, 9, 49, 0.71);
+    --primary-bg-color: rgb(231, 239, 255);
+}
+
+/* Overall body styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Common Styles */
+
+.sub-heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.para-styles{
+    font-weight: 400;
+    color: var(--para-color);
+    font-size: 1rem;
+}
+
+.para-styles-2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--para-color);
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 0;
+}
+
+.blue-texts{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.btn{
+    padding: 1.1rem 2.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.pages{
+    margin-top: 150px;
+}
+
+/* Header */
+
+/* Navigation Bar */
+
+.header{
+    background-color: var(--primary-bg-color);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    background-color: var(--primary-bg-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-options ul li a:hover{
+    color: var(--secondary-color);
+}
+
+.options-of-nav{
+    display: flex;
+    gap: 3rem;
+}
+
+.btn-1{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px 2rem;
+    background-color: var(--primary-bg-color);
+    border: none;
+}
+
+.btn-1:hover{
+    color: var(--secondary-color);
+}
+
+.btn-outline-1{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px 2rem;
+    background-color: var(--primary-bg-color);
+    border-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.btn-outline-1:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Hero Styles */
+
+.content{
+    margin-top: 90px;
+    display: flex;
+    gap: 100px;
+}
+
+.btn-normal{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.btn-normal:hover{
+    background-color: var(--secondary-color);
+}
+
+.btn-outline{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.rounded{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.avatars{
+    display: flex;
+    align-items: center;
+}
+
+.avatars .avatar{
+    margin-left: -15px;
+}
+
+.p-gap{
+    margin-left: 1rem;
+}
+
+.banner .content .hero-about>*{
+    margin-bottom: 2rem;
+}
+
+/* About Us Styles */
+
+.about-them{
+    display: flex;
+    gap: 105px;
+}
+
+.about-them .about{
+    margin-top: 40px;
+    width: 40%;
+}
+
+.about-them .about .box{
+    display: flex;
+    box-shadow: 10px 24px 50px 0 rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.about-them .about .box img{
+    margin-left: auto;
+}
+
+.about-them .about .box .box-2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-them .about .about-us-title>*{
+    margin-top: 1rem;
+}
