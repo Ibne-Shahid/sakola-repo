@@ -60,6 +60,12 @@ body{
     padding: 20px 0 0;
 }
 
+.content{
+    margin-top: 90px;
+    display: flex;
+    gap: 100px;
+}
+
 .blue-texts{
     color: var(--primary-color);
     font-weight: 400;
@@ -132,12 +138,6 @@ body{
 }
 
 /* Hero Styles */
-
-.content{
-    margin-top: 90px;
-    display: flex;
-    gap: 100px;
-}
 
 .btn-normal{
     background-color: var(--primary-color);
@@ -214,4 +214,10 @@ body{
 
 .about-them .about .about-us-title>*{
     margin-top: 1rem;
+}
+
+/* Reputed Schools Style */
+
+.rep-schools-des>*{
+    margin-top: 40px;
 }
