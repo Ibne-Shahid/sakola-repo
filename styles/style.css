@@ -48,7 +48,13 @@ body{
 }
 
 .para-styles-2{
-    font-size: 1.2rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--para-color);
+}
+
+.para-styles-3{
+    font-size: 20px;
     font-weight: 600;
     color: var(--para-color);
 }
@@ -220,4 +226,75 @@ body{
 
 .rep-schools-des>*{
     margin-top: 40px;
+}
+
+/* Studying Section Styles */
+
+.studying-heading{
+    text-align: center;
+}
+
+.studying-heading h1{
+    width: 50%;
+    margin: 16px auto;
+}
+
+.classes{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.card{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.card>*{
+    margin-top: 8px;
+}
+
+.stars{
+    color: rgb(253, 195, 80);
+}
+
+/* Overlay Section Styles */
+
+.bg-img{
+    background-image: url(../images/news-letter.png);
+    background-size: contain;
+    height: 450px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgb(0, 13, 131, 0.8);
+    height: 95%;
+    border-radius: 40px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content{
+    text-align: center;
+    line-height: 80px;
+}
+
+.btn-overlay{
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+}
+
+.btn-overlay:hover{
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+.newsletter-heading{
+    color: white;
 }
